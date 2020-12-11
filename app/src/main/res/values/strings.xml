@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Address</string>
+    <string name="first_item">Mr</string>
+    <string name="second_item">Ms</string>
+    <string name="second_item_fr">MME</string>
+    <string name="third_item">Mrs</string>
+    <string name="third_item_fr">MME</string>
+    <string name="fourth_item">Dr.</string>
+    <string name="firstName">First Name:</string>
+    <string name="firstName_fr">Prénom:</string>
+    <string name="lastName">Last Name:</string>
+    <string name="lastName_fr">Nom de famille:</string>
+    <string name="address">Address:</string>
+    <string name="address_fr">Adresse:</string>
+    <string name="province">Province:</string>
+    <string name="country">Country:</string>
+    <string name="country_fr">Pays:</string>
+    <string name="postalcode">Postal Code:</string>
+    <string name="postalcode_fr">Code Postal:</string>
+    <string name="submit_button">Submit</string>
+    <string name="submit_button_fr">Soumettre</string>
+    <string name="alert_title">Languages: </string>
+    <string name="french_label">French</string>
+    <string name="english_label">English</string>
+    <string name="select_province">Select your Province</string>
+    <string name="about">About</string>
+    <string name="clear">Clear</string>
+
+</resources>

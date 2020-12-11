@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/main_portrait_fr"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Green">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/mr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/first_item"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:id="@+id/ms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/second_item_fr"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"/>
+
+            <RadioButton
+                android:id="@+id/mrs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/third_item_fr"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"/>
+
+            <RadioButton
+                android:id="@+id/dr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fourth_item"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:stretchColumns="0,1,2">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="9dp"
+                android:paddingTop="9dp"
+                android:paddingBottom="9dp"
+                android:text="@string/firstName_fr"
+                android:layout_weight="1"/>
+
+            <EditText
+                android:id="@+id/First_Name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:inputType="textCapWords"
+                android:paddingLeft="9dp"
+                android:paddingTop="9dp"
+                android:paddingBottom="9dp"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lastName_fr"
+                android:paddingTop="9dp"
+                android:paddingBottom="9dp"
+                android:paddingLeft="9dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"/>
+
+            <EditText
+                android:id="@+id/Last_Name"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:inputType="textCapWords"
+                android:paddingLeft="9dp"
+                android:paddingTop="9dp"
+                android:paddingBottom="9dp"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/address_fr"
+                android:paddingTop="9dp"
+                android:paddingBottom="9dp"
+                android:paddingLeft="9dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/Address"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:paddingLeft="9dp"
+                android:paddingBottom="9dp"
+                android:paddingTop="9dp"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/province"
+                android:paddingTop="9dp"
+                android:paddingBottom="9dp"
+                android:paddingLeft="9dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"/>
+            <Spinner
+                android:id="@+id/Province"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:paddingLeft="9dp"
+                android:paddingBottom="9dp"
+                android:paddingTop="9dp"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:paddingLeft="9dp"
+                android:paddingTop="9dp"
+                android:paddingBottom="9dp"
+                android:text="@string/country_fr" />
+
+            <EditText
+                android:id="@+id/Country"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:paddingLeft="9dp"
+                android:paddingTop="9dp"
+                android:paddingBottom="9dp"
+                android:layout_marginRight="10dp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:paddingLeft="9dp"
+                android:paddingTop="9dp"
+                android:paddingBottom="9dp"
+                android:text="@string/postalcode_fr" />
+
+            <EditText
+                android:id="@+id/PostalCode_fr"
+                android:layout_width="158dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:paddingLeft="9dp"
+                android:paddingTop="9dp"
+                android:paddingBottom="9dp"
+                android:layout_marginRight="10dp"/>
+
+
+            <Button
+                android:id="@+id/Submit"
+                android:background="@color/LightGrey"
+                android:text="@string/submit_button_fr" />
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
